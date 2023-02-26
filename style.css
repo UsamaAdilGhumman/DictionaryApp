@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background: url("./bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    height: 15rem;
+}
+.btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    background-color: #f8f9fA;
+    transition: background 2s;
+}
+.btn:hover{
+    background-color: #d2d3d6;
+}
+#word{
+    padding: 10px;
+    width: 80%;
+}
+.heading{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.dictionary-form{
+    max-width: 500px;
+    margin: 30px auto;
+}
+.ans{
+    background-color: rgb(18, 113, 238);
+    padding: 10px;
+    color: white;
+    width: 50%;
+    margin: 10px auto;
+    position: relative;
+    left: 25%;
+    display: none;
+}
+.error{
+    background-color: rgb(227, 30, 8);
+    padding: 10px;
+    color: white;
+    margin: 30px auto;
+    position: relative;
+    left: 30%;
+    display: none;
+}
+.ans-heading-paragrph{
+    text-align: center;
+}
+.ans-definition-paragrph{
+    margin-top: 20px;
+}
